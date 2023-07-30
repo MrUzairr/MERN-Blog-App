@@ -30,7 +30,7 @@ router.post('/', (req, res, next) => {
                     console.log('email has sent');
                 }
             });
-            res.redirect('http://localhost:3000');
+            res.redirect('https://mern-blogs-app.netlify.app/');
         }
     });
     console.log(firstname, lastname, email, password);
