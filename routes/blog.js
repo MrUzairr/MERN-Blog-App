@@ -29,7 +29,7 @@ router.post('/',upload.single("image"),(req,res,next)=>{
         if (err) throw err;
         else {
             console.log('data stored');
-            res.redirect('http://localhost:3000');
+            res.redirect('https://mern-blogs-app.netlify.app/');
         }
     });
     console.log(text,file,author);
